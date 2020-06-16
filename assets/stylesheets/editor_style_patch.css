@@ -9,3 +9,18 @@ li > code {
   color: #D20;
   padding: 2px 5px 1px;
 }
+
+.question-mark-modal {
+  display: none;
+}
+.question-mark-modal-visible {
+  display: block;
+  height: auto;
+  width: 500px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background: #FFF;
+  margin-left: -250px;
+  margin-top: -250px;
+}
